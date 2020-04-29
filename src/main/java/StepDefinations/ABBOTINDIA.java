@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
+import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
 public class ABBOTINDIA extends Helper {
@@ -31,5 +32,7 @@ public void Get_stock_name_ABBOTINDIA() throws InterruptedException, IOException
 public void Get_stock_previous_close_ABBOTINDIA() throws InterruptedException, IOException {
 			  drv.findElement(By.xpath("//*[@id=\"div_nse_livebox_wrap\"]/div[1]/div[2]/div[1]/ul/li[1]/p[2]"));
 			  Thread.sleep(5000);
+			  File src=	 ((TakesScreenshot)drv).getScreenshotAs(OutputType.FILE);
+				FileUtils.copyFile(src,new File("C:\\Users\\jayan\\eclipse-workspace\\MoneyControlCucumber\\resources\\Screenshot\\screenshot.png"));
 			  
 drv.quit();}}

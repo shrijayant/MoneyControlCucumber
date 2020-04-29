@@ -31,14 +31,14 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">2</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">217.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">2</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">182.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="2">runnerTest.runnerTest</td><td><a href="#m1"><b>feature</b> (cucumber) ("Runs Cucumber Feature")</a></td><td class="numi">1</td><td>1584900183489</td><td class="numi">89638</td></tr><tr class="failedodd"><td><a href="#m2"><b>feature</b> (cucumber) ("Runs Cucumber Feature")</a></td><td class="numi">1</td><td>1584900183489</td><td class="numi">89638</td></tr>
+<tr class="failedodd"><td rowspan="2">runnerTest.runnerTest</td><td><a href="#m1"><b>feature</b> (cucumber) ("Runs Cucumber Feature")</a></td><td class="numi">1</td><td>1587235591947</td><td class="numi">68431</td></tr><tr class="failedodd"><td><a href="#m2"><b>feature</b> (cucumber) ("Runs Cucumber Feature")</a></td><td class="numi">1</td><td>1587235591947</td><td class="numi">68431</td></tr>
 <tr><th colspan="4">Test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="2">runnerTest.runnerTest</td><td><a href="#m3"><b>feature</b> (cucumber) ("Runs Cucumber Feature")</a></td><td class="numi">1</td><td>1584900056407</td><td class="numi">127081</td></tr><tr class="passedodd"><td><a href="#m4"><b>feature</b> (cucumber) ("Runs Cucumber Feature")</a></td><td class="numi">1</td><td>1584900056407</td><td class="numi">127081</td></tr>
+<tr class="passedodd"><td rowspan="2">runnerTest.runnerTest</td><td><a href="#m3"><b>feature</b> (cucumber) ("Runs Cucumber Feature")</a></td><td class="numi">1</td><td>1587235660395</td><td class="numi">113445</td></tr><tr class="passedodd"><td><a href="#m4"><b>feature</b> (cucumber) ("Runs Cucumber Feature")</a></td><td class="numi">1</td><td>1587235660395</td><td class="numi">113445</td></tr>
 </table>
 <h1>Test</h1>
 <h2 id="m1">runnerTest.runnerTest:feature</h2>
@@ -47,13 +47,15 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <tr class="param stripe"><td>Visit Money Control Home page</td>
 </tr>
 <tr><td style="padding-left:3em" colspan="1">
-<p>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=80.0.3987.149)
+<p>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;sec_quotes&quot;]/div[2]/div/h1&quot;}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;DESKTOP-D65NDT8&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\jayan\AppData\Local\Temp\scoped_dir30876_425009656}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54695}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
-Session ID: 150fe131bad50bfdff4c000ab4bf3993</p>
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\jayan\AppData\Local\Temp\scoped_dir15348_52198799}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50257}, acceptInsecureCerts=false, browserVersion=81.0.4044.113, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: a041954a7e6402e8ad889d5706503e20
+*** Element info: {Using=xpath, value=//*[@id=&quot;sec_quotes&quot;]/div[2]/div/h1}</p>
 cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 <br/>at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 <br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -85,13 +87,15 @@ cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:6
 <br/>at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
 <br/>at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 <br/>1 lines not shown
-<p>Caused by element not interactable
-  (Session info: chrome=80.0.3987.149)
+<p>Caused by no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;sec_quotes&quot;]/div[2]/div/h1&quot;}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;DESKTOP-D65NDT8&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\jayan\AppData\Local\Temp\scoped_dir30876_425009656}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54695}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
-Session ID: 150fe131bad50bfdff4c000ab4bf3993</p>
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\jayan\AppData\Local\Temp\scoped_dir15348_52198799}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50257}, acceptInsecureCerts=false, browserVersion=81.0.4044.113, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: a041954a7e6402e8ad889d5706503e20
+*** Element info: {Using=xpath, value=//*[@id=&quot;sec_quotes&quot;]/div[2]/div/h1}</p>
 sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 <br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -102,10 +106,12 @@ sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 <br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-<br/>at StepDefinations.ABFRL.Visit_stock_ABFRL(ABFRL.java:22)
-<br/>at ?.Then Visit stock ABFRL(ABFRL.feature:3)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+<br/>at StepDefinations.ABBOTINDIA.Get_stock_name_ABBOTINDIA(ABBOTINDIA.java:28)
+<br/>at ?.Then Get stock name ABBOTINDIA(ABBOTINDIA_Test.feature:4)
 <br/>1 lines not shown
 </td></tr>
 </table>

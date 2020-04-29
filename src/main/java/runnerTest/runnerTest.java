@@ -8,7 +8,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 features = "src/main/java/MoneyControl/Features",
 glue = "StepDefinations",
-plugin = {"json:target/cucumber-reports/Cucumber.json","html:target/cucumber-reports"},
+plugin = {"json:target/cucumber-reports/Cucumber.json"},
 monochrome = true
 		)
 public class runnerTest extends AbstractTestNGCucumberTests {

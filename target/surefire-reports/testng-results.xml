@@ -2,30 +2,19 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="217300" started-at="2020-03-22T18:00:55Z" finished-at="2020-03-22T18:04:33Z">
+  <suite name="Suite" duration-ms="182431" started-at="2020-04-18T18:46:31Z" finished-at="2020-04-18T18:49:33Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerTest.runnerTest@2a5ca609]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="217300" started-at="2020-03-22T18:00:55Z" finished-at="2020-03-22T18:04:33Z">
+    <test name="Test" duration-ms="182431" started-at="2020-04-18T18:46:31Z" finished-at="2020-04-18T18:49:33Z">
       <class name="runnerTest.runnerTest">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerTest.runnerTest@2a5ca609]" name="setUpClass" is-config="true" duration-ms="444" started-at="2020-03-22T23:30:55Z" finished-at="2020-03-22T23:30:56Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerTest.runnerTest@2a5ca609]" name="setUpClass" is-config="true" duration-ms="390" started-at="2020-04-19T00:16:31Z" finished-at="2020-04-19T00:16:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerTest.runnerTest@2a5ca609]" name="feature" duration-ms="127081" started-at="2020-03-22T23:30:56Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-22T23:33:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Visit Money Control Home page]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerTest.runnerTest@2a5ca609]" name="feature" duration-ms="89638" started-at="2020-03-22T23:33:03Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-22T23:34:33Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerTest.runnerTest@2a5ca609]" name="feature" duration-ms="68431" started-at="2020-04-19T00:16:31Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-19T00:17:40Z">
           <params>
             <param index="0">
               <value>
@@ -35,22 +24,26 @@
           </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=80.0.3987.149)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="sec_quotes"]/div[2]/div/h1"}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-D65NDT8', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\jayan\AppData\Local\Temp\scoped_dir30876_425009656}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54695}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
-Session ID: 150fe131bad50bfdff4c000ab4bf3993]]>
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\jayan\AppData\Local\Temp\scoped_dir15348_52198799}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50257}, acceptInsecureCerts=false, browserVersion=81.0.4044.113, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: a041954a7e6402e8ad889d5706503e20
+*** Element info: {Using=xpath, value=//*[@id="sec_quotes"]/div[2]/div/h1}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=80.0.3987.149)
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="sec_quotes"]/div[2]/div/h1"}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-D65NDT8', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\jayan\AppData\Local\Temp\scoped_dir30876_425009656}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54695}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
-Session ID: 150fe131bad50bfdff4c000ab4bf3993
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\jayan\AppData\Local\Temp\scoped_dir15348_52198799}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50257}, acceptInsecureCerts=false, browserVersion=81.0.4044.113, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: a041954a7e6402e8ad889d5706503e20
+*** Element info: {Using=xpath, value=//*[@id="sec_quotes"]/div[2]/div/h1}
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -81,13 +74,15 @@ Session ID: 150fe131bad50bfdff4c000ab4bf3993
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=80.0.3987.149)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="sec_quotes"]/div[2]/div/h1"}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-D65NDT8', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\jayan\AppData\Local\Temp\scoped_dir30876_425009656}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54695}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
-Session ID: 150fe131bad50bfdff4c000ab4bf3993
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\jayan\AppData\Local\Temp\scoped_dir15348_52198799}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50257}, acceptInsecureCerts=false, browserVersion=81.0.4044.113, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: a041954a7e6402e8ad889d5706503e20
+*** Element info: {Using=xpath, value=//*[@id="sec_quotes"]/div[2]/div/h1}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -98,17 +93,30 @@ Session ID: 150fe131bad50bfdff4c000ab4bf3993
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at StepDefinations.ABFRL.Visit_stock_ABFRL(ABFRL.java:22)
-	at ✽.Then Visit stock ABFRL(ABFRL.feature:3)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at StepDefinations.ABBOTINDIA.Get_stock_name_ABBOTINDIA(ABBOTINDIA.java:28)
+	at ✽.Then Get stock name ABBOTINDIA(ABBOTINDIA_Test.feature:4)
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerTest.runnerTest@2a5ca609]" name="tearDownClass" is-config="true" duration-ms="25" started-at="2020-03-22T23:34:33Z" finished-at="2020-03-22T23:34:33Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerTest.runnerTest@2a5ca609]" name="feature" duration-ms="113445" started-at="2020-04-19T00:17:40Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-19T00:19:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Visit Money Control Home page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerTest.runnerTest@2a5ca609]" name="tearDownClass" is-config="true" duration-ms="32" started-at="2020-04-19T00:19:33Z" finished-at="2020-04-19T00:19:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -33,7 +33,7 @@ public class Helper{
 					}
 		
 		if(browser.equals("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\jayan\\Downloads\\chromedriver_win32 (3)\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\jayan\\Downloads\\chromedriver_win32 (4)\\chromedriver.exe");
 			drv = new ChromeDriver();
 					}
 		
@@ -49,8 +49,8 @@ public class Helper{
 	}
 	
 	
-	public void getscreenshots(String result) throws IOException {
+	public void getscreenshots() throws IOException {
 		File src=	 ((TakesScreenshot)drv).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src,new File("C:\\Users\\jayan\\eclipse-workspace\\MoneyControlCucumber\\resources\\Screenshot\\"+result+"screenshot.png"));
+		FileUtils.copyFile(src,new File("C:\\Users\\jayan\\eclipse-workspace\\MoneyControlCucumber\\resources\\Screenshot\\screenshot.png"));
 	}
 }

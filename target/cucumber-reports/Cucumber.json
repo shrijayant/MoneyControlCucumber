@@ -12,9 +12,8 @@
         "steps": [
           {
             "result": {
-              "duration": 49873764100,
-              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d80.0.3987.149)\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027DESKTOP-D65NDT8\u0027, ip: \u0027192.168.0.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir\u003dC:\\Users\\jayan\\AppData\\Local\\Temp\\scoped_dir26184_1947781129}, timeouts\u003d{implicit\u003d0.0, pageLoad\u003d300000.0, script\u003d30000.0}, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003ddismiss and notify, strictFileInteractability\u003dfalse, platform\u003dANY, proxy\u003dProxy(), goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:59968}, acceptInsecureCerts\u003dfalse, browserVersion\u003d80.0.3987.149, browserName\u003dchrome, javascriptEnabled\u003dtrue, platformName\u003dwindows, setWindowRect\u003dtrue}]\nSession ID: 2b98a368250a685b6beef6405c5c58b7\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)\r\n\tat StepDefinations.ABBOTINDIA.Visit_stock_ABBOTINDIA(ABBOTINDIA.java:22)\r\n\tat ✽.Then Visit stock ABBOTINDIA(ABBOTINDIA.feature:3)\r\n",
-              "status": "failed"
+              "duration": 21590347300,
+              "status": "passed"
             },
             "line": 3,
             "name": "Visit stock ABBOTINDIA",
@@ -25,7 +24,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 46819034700,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"sec_quotes\"]/div[2]/div/h1\"}\n  (Session info: chrome\u003d81.0.4044.113)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027DESKTOP-D65NDT8\u0027, ip: \u0027192.168.0.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir\u003dC:\\Users\\jayan\\AppData\\Local\\Temp\\scoped_dir15348_52198799}, timeouts\u003d{implicit\u003d0.0, pageLoad\u003d300000.0, script\u003d30000.0}, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003ddismiss and notify, strictFileInteractability\u003dfalse, platform\u003dANY, proxy\u003dProxy(), goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:50257}, acceptInsecureCerts\u003dfalse, browserVersion\u003d81.0.4044.113, browserName\u003dchrome, javascriptEnabled\u003dtrue, platformName\u003dwindows, setWindowRect\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: a041954a7e6402e8ad889d5706503e20\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"sec_quotes\"]/div[2]/div/h1}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\r\n\tat StepDefinations.ABBOTINDIA.Get_stock_name_ABBOTINDIA(ABBOTINDIA.java:28)\r\n\tat ✽.Then Get stock name ABBOTINDIA(ABBOTINDIA_Test.feature:4)\r\n",
+              "status": "failed"
             },
             "line": 4,
             "name": "Get stock name ABBOTINDIA",
@@ -52,6 +53,62 @@
     "description": "",
     "id": "visit-money-control-home-page",
     "keyword": "Feature",
-    "uri": "ABBOTINDIA.feature"
+    "uri": "ABBOTINDIA_Test.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Visit Money Control Home page",
+        "description": "",
+        "id": "visit-money-control-home-page;visit-money-control-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 98653587500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Visit stock ABFRL",
+            "match": {
+              "location": "ABFRL.Visit_stock_ABFRL()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5461023200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Get stock name ABFRL",
+            "match": {
+              "location": "ABFRL.Get_stock_name_ABFRL()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9325010900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Get stock previous close ABFRL",
+            "match": {
+              "location": "ABFRL.Get_stock_previous_close_ABFRL()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Visit Money Control Home page",
+    "description": "",
+    "id": "visit-money-control-home-page",
+    "keyword": "Feature",
+    "uri": "ABFRL_Test.feature"
   }
 ]

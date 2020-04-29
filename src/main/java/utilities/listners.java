@@ -15,7 +15,7 @@ public class listners implements ITestListener{
 		
 		
 		try {
-			hp.getscreenshots(null);
+			hp.getscreenshots();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -38,7 +38,7 @@ public class listners implements ITestListener{
 		// TODO Auto-generated method stub
 	
 		try {
-			hp.getscreenshots(null);
+			hp.getscreenshots();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
